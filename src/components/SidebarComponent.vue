@@ -1,11 +1,15 @@
 <template>
   <aside class="w-60 p-4 mx-auto">
     <div class="border mt-6 p-2 mb-4">
-      <h2 class="text-4xl font-bold mb-4 mt-2 text-center ">/root</h2>
-      <ul class="">
-        <li v-for="(item, index) in menuItems" :key="index" class="flex items-center mb-2 text-xl ml-1 hover:text-gray-500">
+      <h2 class="text-4xl font-bold mb-4 mt-2 text-center">/root</h2>
+      <ul>
+        <li
+          v-for="(item, index) in menuItems"
+          :key="index"
+          class="flex items-center mb-2 text-2xl ml-1 hover:text-gray-500"
+        >
           <i :class="item.icon" class="mr-2"></i>
-          <a href="#" class="">{{ item.name }}</a>
+          <router-link :to="item.path" class="">{{ item.name }}</router-link>
         </li>
       </ul>
     </div>
@@ -14,8 +18,8 @@
 
 <script setup>
 const menuItems = [
-  { name: 'Home', icon: 'fas fa-house-chimney' },
-  { name: 'About Me', icon: 'fas fa-user-astronaut' },
-  { name: 'Projects', icon: 'fas fa-floppy-disk' }
-]
+  { name: 'About Me', icon: 'fas fa-user-astronaut', path: '/' },
+  { name: 'Projects', icon: 'fas fa-floppy-disk', path: '/projects' },
+  { name: 'Blog', icon: 'fa-solid fa-blog', path: '/blog' }
+];
 </script>
