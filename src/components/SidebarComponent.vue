@@ -23,3 +23,5 @@ const menuItems = [
   { name: 'Blog', icon: 'fa-solid fa-blog', path: '/blog' }
 ];
 </script>
+
+
