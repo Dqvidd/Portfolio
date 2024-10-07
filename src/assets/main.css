@@ -9,3 +9,21 @@ p, h1, h2, h3, li{
 body, select {
   background-color: rgba(34,32,32,255);
 }
+
+@font-face {
+  font-family: 'Hurmit Nerd Font';
+  src: url('/assets/fonts/HurmitNerdFont-Regular.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#custom-font{
+  font-family: 'Terminal', sans-serif;
+}
+
+span {
+  position: relative;
+  top: 0.5em;  /* Ajusta este valor para mover el carácter hacia abajo */
+  margin: 0 0.2em;
+}
+

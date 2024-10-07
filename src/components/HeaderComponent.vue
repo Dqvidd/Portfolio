@@ -1,6 +1,6 @@
 <template>
   <header class="p-4 flex justify-between items-center border-b">
-    <h1 class="text-4xl font-bold">Dqvidd</h1>
+    <h1 id="custom-font" class="text-3xl font-bold">Dqvidd:<span class="custom-tilde">~</span>$</h1>
     <div class="flex space-x-4">
       <a href="#" class="text-gray-300 hover:text-white">
         <GithubIcon class="w-6 h-6" />
