@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 p, h1, h2, h3, li{
-  font-family: 'VT323', monospace; /* Asegúrate de mantener esta línea */
+  font-family: 'VT323', monospace;
 }
 
 body, select {
@@ -16,7 +16,7 @@ body, select {
 
 span {
   position: relative;
-  top: 0.5em;  /* Ajusta este valor para mover el carácter hacia abajo */
+  top: 0.5em;
   margin: 0 0.2em;
 }
 
