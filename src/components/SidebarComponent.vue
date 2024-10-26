@@ -20,8 +20,5 @@
 const menuItems = [
   { name: 'About Me', icon: 'fas fa-user-astronaut', path: '/' },
   { name: 'Ejercicios', icon: 'fas fa-floppy-disk', path: '/ejercicios' },
-  { name: 'Blog', icon: 'fa-solid fa-blog', path: '/blog' }
 ];
 </script>
-
-
