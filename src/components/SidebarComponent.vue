@@ -19,7 +19,7 @@
 <script setup>
 const menuItems = [
   { name: 'About Me', icon: 'fas fa-user-astronaut', path: '/' },
-  { name: 'Projects', icon: 'fas fa-floppy-disk', path: '/projects' },
+  { name: 'Ejercicios', icon: 'fas fa-floppy-disk', path: '/ejercicios' },
   { name: 'Blog', icon: 'fa-solid fa-blog', path: '/blog' }
 ];
 </script>

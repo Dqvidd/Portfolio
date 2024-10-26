@@ -21,7 +21,7 @@ import Sidebar from './SidebarComponent.vue';
 
 <style>
 html, body {
-  height: 100%; /* Asegúrate de que el html y body ocupen el 100% de la altura */
-  margin: 0; /* Eliminar márgenes por defecto */
+  height: 100%;
+  margin: 0;
 }
 </style>
