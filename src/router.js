@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import AboutMe from './components/AboutMe.vue';
 import Projects from './components/Ejercicios.vue';
-import Ejercicio1 from './components/Ejercicio1.vue'; // Importar el componente del ejercicio 1
+import Ejercicio1 from './components/ELF x86 - Fake Instructions.vue'; // Importar el componente del ejercicio 1
 // Importa más ejercicios según sea necesario
 
 const routes = [
