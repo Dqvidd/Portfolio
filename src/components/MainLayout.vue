@@ -30,7 +30,7 @@ html, body {
 }
 
 .layout {
-  background-image: url('./assets/bg-dark.jpg'); /* Solo bg-dark.jpg */
+  background-image: url('./bg-dark.jpg'); /* Solo bg-dark.jpg */
   background-size: 25%;
   background-repeat: repeat;
   animation: bg-loop 60s linear infinite;
